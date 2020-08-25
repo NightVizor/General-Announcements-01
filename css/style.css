@@ -1,0 +1,115 @@
+/* colors
+orage: rgba(234,175,70,255)
+white: rgba(255,255,255,255)
+black: rgba(0,0,0,255) */
+body{
+    background-color: rgba(255,255,255,255);
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    max-width: 700px;
+    margin: auto auto;
+}
+/* header  */
+.header{
+    background-color: rgba(234,175,70,255);
+}
+.header__logo-img{
+    margin-left: 45px;
+}
+/* header end  */
+/* latest news  */
+.latest__news{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.latest__news-header{
+    font-size: 70px;
+    font-weight: bold;
+    color: rgba(234,175,70,255);
+    margin-bottom: 10px;
+}
+.title__p{
+    font-size: 20px;
+    font-weight: bold;
+}
+/* latest news end  */
+/* whats new  */
+.whats-new__content{
+    display: inline-block;
+}
+.first__news,
+.second__news,
+.third__news{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.second__news{
+    margin: 40px 0;
+}
+.first__news-header,
+.second__news-header,
+.third__news-header{
+    margin: 20px 30px;
+}
+.news-header__text{
+    font-size: 25px;
+    font-weight: bold;
+}
+.news__text-p{
+    font-size: 17px;
+    font-weight: bold;
+}
+.news__button{
+    width: 185px;
+    height: 45px;
+    background-color: rgba(234,175,70,255);
+    text-align: center;
+    border-radius: 5px;
+}
+.news__btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* whats new  end */
+/* social media  */
+.footer{
+    margin-top: 45px;
+    height: 135px;
+    background-color: rgba(234,175,70,255);
+}
+.social__media-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+/* social media end  */
+/* footer menu  */
+.footer__menu{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+    font-size: 17px;
+}
+.menu-list__link{
+    margin: 0 9px;
+}
+/* footer menu end  */
